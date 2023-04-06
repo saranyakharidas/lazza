@@ -1,0 +1,32 @@
+.absolute-button {
+    /* position: absolute; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    z-index: 2;
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: #fff;
+
+   
+    
+  }
+  .imgtest{
+    border-radius: 55%;
+    width: 4em;
+    height: 4em;
+  }
+  @media (max-width: 767px) {
+    .test {
+      padding-top: 60px;
+    }
+  }
+  @media (min-width: 350px) {
+    .test {
+      padding-top: 90px;
+    }
+  
